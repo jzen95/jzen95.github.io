@@ -19,7 +19,7 @@ title-block-banner: false
 - Businfo 716 – Business Analytics for FinTech (Lab teaching and material design)
 - Businfo 711 & 718 – Capstone Project (Programming consultant)
 - Finance 251 – Financial Management (Tutorial teaching and course development)
-- Finance 351, Finance 261, ACCTG 102 (Marking and invigilation) 
+- Finance 351, Finance 261, ACCTG 102 (Marking and invigilation)  
 
 ## Education
 
