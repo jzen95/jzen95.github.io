@@ -1,43 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts.html</loc>
-    <lastmod>2025-06-06T22:28:53.960Z</lastmod>
+    <loc>https://jzen.github.io/presentations.html</loc>
+    <lastmod>2025-12-14T18:26:15.760Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/publications.html</loc>
-    <lastmod>2025-03-11T20:28:51.830Z</lastmod>
+    <loc>https://jzen.github.io/people.html</loc>
+    <lastmod>2025-12-06T07:21:14.020Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/projects.html</loc>
-    <lastmod>2025-02-10T13:31:20.796Z</lastmod>
+    <loc>https://jzen.github.io/publications.html</loc>
+    <lastmod>2025-12-14T14:24:21.239Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts/news-title/index.html</loc>
-    <lastmod>2025-06-06T22:34:03.868Z</lastmod>
+    <loc>https://jzen.github.io/projects.html</loc>
+    <lastmod>2025-12-14T18:23:16.497Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts/paper-title/index.html</loc>
-    <lastmod>2025-02-08T20:29:49.171Z</lastmod>
+    <loc>https://jzen.github.io/posts/news-title/index.html</loc>
+    <lastmod>2025-12-06T07:21:14.021Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/teaching.html</loc>
-    <lastmod>2025-02-10T15:14:33.036Z</lastmod>
+    <loc>https://jzen.github.io/posts/paper-title/index.html</loc>
+    <lastmod>2025-12-06T07:21:14.024Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/contact.html</loc>
-    <lastmod>2025-02-08T02:43:14.168Z</lastmod>
+    <loc>https://jzen.github.io/teaching.html</loc>
+    <lastmod>2025-12-06T08:53:28.072Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/posts/event-title/index.html</loc>
-    <lastmod>2025-02-10T14:44:43.941Z</lastmod>
+    <loc>https://jzen.github.io/contact.html</loc>
+    <lastmod>2025-12-14T18:28:28.592Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/index.html</loc>
-    <lastmod>2025-06-09T09:51:30.909Z</lastmod>
+    <loc>https://jzen.github.io/posts/event-title/index.html</loc>
+    <lastmod>2025-12-06T07:21:14.021Z</lastmod>
   </url>
   <url>
-    <loc>https://drganghe.github.io/quarto-academic-website-template/people.html</loc>
-    <lastmod>2025-06-06T22:28:53.959Z</lastmod>
+    <loc>https://jzen.github.io/index.html</loc>
+    <lastmod>2025-12-14T18:38:18.256Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/about.html</loc>
+    <lastmod>2025-12-14T18:43:03.428Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/posts.html</loc>
+    <lastmod>2025-12-06T07:21:14.021Z</lastmod>
   </url>
 </urlset>

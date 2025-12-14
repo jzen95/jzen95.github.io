@@ -1,14 +1,6 @@
 [
   {
-    "listing": "/posts.html",
-    "items": [
-      "/posts/event-title/index.html",
-      "/posts/news-title/index.html",
-      "/posts/paper-title/index.html"
-    ]
-  },
-  {
-    "listing": "/projects.html",
+    "listing": "/people.html",
     "items": []
   },
   {
@@ -20,7 +12,11 @@
     ]
   },
   {
-    "listing": "/people.html",
-    "items": []
+    "listing": "/posts.html",
+    "items": [
+      "/posts/event-title/index.html",
+      "/posts/news-title/index.html",
+      "/posts/paper-title/index.html"
+    ]
   }
 ]
