@@ -1,0 +1,33 @@
+<nav id="pathbar" class="pathbar" aria-label="Breadcrumb"></nav>
+<script type="text/javascript">
+  (function () {
+    var path = window.location.pathname || "/";
+    var el = document.getElementById("pathbar");
+    if (!el) return;
+
+    var segments = path.split("/").filter(Boolean).filter(function (seg) {
+      return seg !== "items";
+    });
+    var parts = [];
+    var accum = "/";
+
+    parts.push('<a href="/">Home</a>');
+
+    var docTitle = document.title || "";
+    var pageTitle = docTitle.split(" – ")[0].trim();
+
+    segments.forEach(function (seg, index) {
+      accum += seg + "/";
+      var label = seg.replace(/-/g, " ");
+      label = label.charAt(0).toUpperCase() + label.slice(1);
+      if (index === segments.length - 1) {
+        var finalLabel = pageTitle || label;
+        parts.push('<span aria-current="page">' + finalLabel + '</span>');
+      } else {
+        parts.push('<a href="' + accum + '">' + label + '</a>');
+      }
+    });
+
+    el.innerHTML = parts.join('<span class="pathbar-sep">/</span>');
+  })();
+</script>

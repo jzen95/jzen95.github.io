@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Juebin Zeng</title>
+<link>https://jzen.github.io/pages/posts/</link>
+<atom:link href="https://jzen.github.io/pages/posts/index.xml" rel="self" type="application/rss+xml"/>
+<description>Juebin&#39;s Personal Page</description>
+<image>
+<url>https://jzen.github.io/files/images/professional_photo.jpg</url>
+<title>Juebin Zeng</title>
+<link>https://jzen.github.io/pages/posts/</link>
+</image>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Fri, 17 Oct 2025 11:00:00 GMT</lastBuildDate>
+<item>
+  <title>About Me</title>
+  <dc:creator>Juebin Zeng</dc:creator>
+  <link>https://jzen.github.io/pages/posts/items/20251018_about-me/</link>
+  <description><![CDATA[ 
+
+
+
+<script type="text/javascript">
+
+  (function () {
+
+    var path = window.location.pathname || "/";
+
+    var el = document.getElementById("pathbar");
+
+    if (!el) return;
+
+
+
+    var segments = path.split("/").filter(Boolean).filter(function (seg) {
+
+      return seg !== "items";
+
+    });
+
+    var parts = [];
+
+    var accum = "/";
+
+
+
+    parts.push('<a href="/">Home</a>');
+
+
+
+    var docTitle = document.title || "";
+
+    var pageTitle = docTitle.split(" – ")[0].trim();
+
+
+
+    segments.forEach(function (seg, index) {
+
+      accum += seg + "/";
+
+      var label = seg.replace(/-/g, " ");
+
+      label = label.charAt(0).toUpperCase() + label.slice(1);
+
+      if (index === segments.length - 1) {
+
+        var finalLabel = pageTitle || label;
+
+        parts.push('<span aria-current="page">' + finalLabel + '</span>');
+
+      } else {
+
+        parts.push('<a href="' + accum + '">' + label + '</a>');
+
+      }
+
+    });
+
+
+
+    el.innerHTML = parts.join('<span class="pathbar-sep">/</span>');
+
+  })();
+
+</script>
+
+
+
+
+
+
+<section id="a-quick-hello" class="level2">
+<h2 class="anchored" data-anchor-id="a-quick-hello">A Quick Hello</h2>
+<p><img src="https://jzen.github.io/files/images/snowman.jpg" class="float-right img-fluid" style="margin:4px 0 12px 12px; border-radius:8px;" width="250"></p>
+<p>I am Juebin (Jay) Zeng. I do finance research, teach a bit, and spend an unreasonable amount of time convincing machines to behave. Most days I work on corporate governance, executive turnover, and how machine learning can help make sense of messy financial data. Coffee helps; so does a good debugger.</p>
+<p>I am currently on the job hunt and happily between roles.</p>
+<p>My work sits at the intersection of executive turnover, corporate governance, and machine learning in finance. I enjoy building models that explain CEO turnover risk, studying how governance shapes firm performance, and exploring asset pricing questions when the data gets messy.</p>
+<p>I completed my PhD in Finance at the University of Auckland (2025), after a M.MS in Finance (First Class Honors) at the University of Waikato (2021). Along the way I also picked up a PgCert in Computing from ANU (2019) and a B.BA in Finance from Waikato (2018).</p>
+<p>On the research side, I have been an affiliated doctoral researcher at Vlerick Business School (2025) and a research assistant at the University of Auckland (2024-2025). On the teaching side, I have worked as a graduate teaching assistant and programming consultant (2022-2025), supporting analytics labs and capstone projects.</p>
+<p>Coding-wise, I am most at home in Python and R, and I also use SQL, Stata, and a bit of Java. For dashboards and reporting, I reach for Power BI and Tableau, and I still enjoy a good LaTeX draft when it is time to make things look serious.</p>
+<p>I also spent time in industry as a finance project analyst at Oxford Finance (2025), where I reviewed loan closures, recalculated settlement interest, and supported remediation reporting.</p>
+<p>If you are curious about what I write, please check out my <a href="../../../..\pages/research/">research work</a> for publications, working papers, and projects in progress.</p>
+</section>
+<section id="say-hi" class="level2">
+<h2 class="anchored" data-anchor-id="say-hi">Say Hi</h2>
+<p>Work email: juebin.zeng@auckland.ac.nz (may expire any day now, thanks to graduation)</p>
+<p>Personal email: zengjuebin95@outlook.com</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Profile</category>
+  <guid>https://jzen.github.io/pages/posts/items/20251018_about-me/</guid>
+  <pubDate>Fri, 17 Oct 2025 11:00:00 GMT</pubDate>
+  <media:content url="https://jzen.github.io/files/images/snowman.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

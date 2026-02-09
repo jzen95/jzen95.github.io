@@ -1,1 +1,190 @@
+/* Theme fonts */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Manrope:wght@400;500;600;700&display=swap");
+
+:root {
+	--bg-1: #f7f2ea;
+	--bg-2: #e6eef5;
+	--ink: #1d1f22;
+	--muted: #56626b;
+	--accent: #246a73;
+	--accent-2: #1e5aa6;
+	--border: #d6dee6;
+	--card: #ffffff;
+}
+
+.quarto-dark {
+	--bg-1: #182233;
+	--bg-2: #182233;
+	--ink: #e8edf5;
+	--muted: #cbd5e1;
+	--accent: #9bbcff;
+	--accent-2: #7bdff6;
+	--border: #2f3c52;
+	--card: #1c283b;
+}
+
+body {
+	font-family: "Manrope", "Segoe UI", sans-serif;
+	color: var(--ink);
+	background: radial-gradient(1200px 600px at 10% -10%, var(--bg-2), transparent 60%),
+		linear-gradient(180deg, var(--bg-1), #ffffff 60%),
+		linear-gradient(120deg, rgba(36, 106, 115, 0.08), transparent 50%);
+}
+
+.quarto-dark body {
+	background: #182233;
+}
+
+.quarto-dark #quarto-content,
+.quarto-dark .page-columns,
+.quarto-dark .page-columns .content,
+.quarto-dark main.content {
+	background: #182233;
+}
+
+.quarto-dark,
+.quarto-dark body,
+.quarto-dark main,
+.quarto-dark .content,
+.quarto-dark .quarto-title-block,
+.quarto-dark .navbar {
+	color: var(--ink);
+}
+
+.quarto-dark p,
+.quarto-dark li,
+.quarto-dark .sidebar,
+.quarto-dark .nav-link,
+.quarto-dark .navbar-brand {
+	color: var(--ink);
+}
+
+.quarto-dark h1,
+.quarto-dark h2,
+.quarto-dark h3,
+.quarto-dark h4,
+.quarto-dark h5,
+.quarto-dark h6 {
+	color: var(--ink);
+}
+
+.quarto-dark .muted,
+.quarto-dark .pathbar {
+	color: var(--muted);
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar, .navbar-brand, .nav-link {
+	font-family: "Fraunces", "Times New Roman", serif;
+}
+
+a {
+	color: var(--accent);
+}
+
+a:hover {
+	color: var(--accent-2);
+}
+
+.navbar {
+	background: rgba(255, 255, 255, 0.85);
+	backdrop-filter: blur(10px);
+	border-bottom: 1px solid var(--border);
+}
+
+.quarto-dark .navbar {
+	background: rgba(9, 15, 28, 0.92);
+	border-bottom: 1px solid var(--border);
+}
+
+.quarto-title-block .title {
+	letter-spacing: -0.5px;
+}
+
+main.content {
+	animation: fade-in 0.5s ease-out;
+}
+
+@keyframes fade-in {
+	from { opacity: 0; transform: translateY(6px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+.quarto-grid-item.card,
+.card {
+	border-radius: 12px;
+	border: 1px solid var(--border);
+	background: var(--card);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.quarto-dark .quarto-grid-item.card,
+.quarto-dark .card {
+	background: var(--card);
+	border-color: var(--border);
+	box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.quarto-dark .quarto-title-block .title,
+.quarto-dark h1,
+.quarto-dark h2,
+.quarto-dark h3 {
+	color: var(--ink);
+}
+
+.quarto-dark p,
+.quarto-dark li,
+.quarto-dark small,
+.quarto-dark .sidebar,
+.quarto-dark .nav-link,
+.quarto-dark .navbar-brand {
+	color: var(--ink);
+}
+
+.quarto-dark a {
+	color: var(--accent);
+}
+
+.quarto-dark a:hover {
+	color: var(--accent-2);
+}
+
+.pathbar {
+	font-size: 0.85rem;
+	color: var(--muted);
+	margin: 14px 0 0;
+}
+.pathbar a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.pathbar a:hover {
+	text-decoration: underline;
+}
+
+.pathbar-sep {
+	margin: 0 6px;
+	color: var(--muted);
+}
+
+.quarto-color-scheme-toggle::after {
+	content: " Theme";
+	font-size: 0.85rem;
+	vertical-align: middle;
+}
+
+img.float-right {
+	float: right;
+	margin: 4px 0 12px 12px;
+}
+
+@media (max-width: 700px) {
+	img.float-right {
+		float: none;
+		display: block;
+		margin: 0 auto 12px;
+	}
+}
+
 /* css styles */

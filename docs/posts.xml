@@ -10,19 +10,19 @@
 <atom:link href="https://jzen.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Juebin&#39;s Personal Page</description>
 <image>
-<url>https://quarto.org/quarto.png</url>
+<url>https://jzen.github.io/files/images/professional_photo.jpg</url>
 <title>Juebin Zeng</title>
 <link>https://jzen.github.io/posts.html</link>
 </image>
-<generator>quarto-1.8.26</generator>
-<lastBuildDate>Mon, 14 Oct 2024 16:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Mon, 14 Oct 2024 11:00:00 GMT</lastBuildDate>
 <item>
   <title>Quarto Academic Website Examples and Tips</title>
   <link>https://jzen.github.io/</link>
   <description>Examples and tips for Quarto Academic Website</description>
   <category>news</category>
   <guid>https://jzen.github.io/</guid>
-  <pubDate>Mon, 14 Oct 2024 16:00:00 GMT</pubDate>
+  <pubDate>Mon, 14 Oct 2024 11:00:00 GMT</pubDate>
   <media:content url="https://jzen.github.io/files/images/placeholder1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -34,7 +34,7 @@
 
 
 
-<p><a href="https://drganghe.github.io/quarto-academic-website-template/"><img src="https://jzen.github.io/files/images/placeholder2.JPG" class="img-fluid" style="width:90.0%"></a></p>
+<p><img src="https://jzen.github.io/files/images/placeholder2.JPG" class="img-fluid" style="width:90.0%"></p>
 <!--Include social share buttons-->
 <!-- 
 AddToAny check more: https://www.addtoany.com/buttons/for/website 
@@ -52,7 +52,7 @@ https://quarto.org/docs/authoring/includes.html
   <category>event</category>
   <category>presentation</category>
   <guid>https://jzen.github.io/posts/event-title/</guid>
-  <pubDate>Mon, 02 Sep 2024 16:00:00 GMT</pubDate>
+  <pubDate>Mon, 02 Sep 2024 12:00:00 GMT</pubDate>
   <media:content url="https://jzen.github.io/files/images/placeholder2.JPG" medium="image"/>
 </item>
 <item>
@@ -84,7 +84,7 @@ https://quarto.org/docs/authoring/includes.html
  ]]></description>
   <category>news</category>
   <guid>https://jzen.github.io/posts/news-title/</guid>
-  <pubDate>Sun, 23 Jun 2024 16:00:00 GMT</pubDate>
+  <pubDate>Sun, 23 Jun 2024 12:00:00 GMT</pubDate>
   <media:content url="https://jzen.github.io/files/images/placeholder3.JPG" medium="image"/>
 </item>
 <item>
@@ -103,7 +103,6 @@ https://quarto.org/docs/authoring/includes.html
 Load Academicons v1: https://jpswalsh.github.io/academicons/
 -->
 <p><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></p>
-<p><link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"></p>
 <!---
 The following code are needed to show dimension citation and altmetrics.
 https://api.altmetric.com/embeds.html
@@ -111,7 +110,6 @@ https://badge.dimensions.ai/
 --->
 <script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
 <script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
 <p>In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.</p>
@@ -119,9 +117,9 @@ https://badge.dimensions.ai/
 <section id="links" class="level2">
 <h2 class="anchored" data-anchor-id="links">Links</h2>
 <p>Published <a href="https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777">paper</a></p>
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1103/PhysRev.47.777"></div>
+<div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1103/PhysRev.47.777"></div>
 
-<span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-hide-zero-citations="true" data-style="small_circle"></span><script async="" src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+<span class="__dimensions_badge_embed__" data-doi="10.1103/PhysRev.47.777" data-hide-zero-citations="true" data-style="small_circle"></span>
 
 
 </section>
@@ -146,7 +144,7 @@ Complete?”</span> <em>Physical Review</em> 47 (7938): 777–80. <a href="https
 </div></div></section></div> ]]></description>
   <category>paper</category>
   <guid>https://jzen.github.io/posts/paper-title/</guid>
-  <pubDate>Tue, 14 May 1935 16:00:00 GMT</pubDate>
+  <pubDate>Tue, 14 May 1935 12:30:00 GMT</pubDate>
   <media:content url="https://jzen.github.io/posts/paper-title/featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

@@ -1,0 +1,91 @@
+---
+title: "Presentations"
+description-meta: "Conference and seminar presentations"
+title-block-banner: false
+---
+
+1. **Berkman, Henk; Lu, Helen; Zeng, Juebin. (June 10, 2023) Predicting Performance-Induced CEO Dismissals Using Machine Learning. Available at SSRN: https://ssrn.com/abstract=5951814 or http://dx.doi.org/10.2139/ssrn.5951814**
+   - We employ AI models to forecast performance-induced CEO dismissals; demonstrates superior out-of-sample predictive accuracy and reveals market under-reaction to leadership risk.
+   - Presented at:
+     - University of Auckland Accounting and Finance Department Seminar (2023[me])
+     - New Zealand Finance Meeting (2023[me], 2025[co])
+     - Australasian Banking and Finance Conference (2023[me])
+     - Auckland Region Accounting Conference (2023[me])
+     - New Zealand Finance Colloquium (2024[me])
+     - The 8th Vietnam International Conference in Finance (2024[co])
+     - Corporate Finance Day (2025[co], Netherlands)
+     - Being prepared for EFA and AAA this year
+	
+2. **"Anti-pledging policy and firm financial constraints", co-authored with Prof. Henk Berkman and Prof. Helen Lu**
+   - We study how share-pledging restrictions affect cash compensation, firm risk-taking, and valuation for financially constrained firms.
+   - Presented at:
+     - University of Auckland PhD Brown Bag Seminar (2022[me])
+
+
+
+
+```{=html}
+<!-- Render inline a/b markers from [me]/[co] tokens and append two-note legend. -->
+<style>
+   .inline-note sup { font-size: 0.75em; vertical-align: super; }
+   .inline-note-list { margin-top: 16px; font-size: 0.95em; }
+</style>
+<script type="text/javascript">
+   (function () {
+      // Map token labels to letters.
+      var map = { me: "a", co: "b" };
+      var textNodes = document.querySelectorAll("main");
+      if (!textNodes.length) return;
+
+      // Replace [me]/[co] tokens with inline a/b markers.
+      var html = textNodes[0].innerHTML;
+      html = html.replace(/\[me\]/g, '<sup class="inline-note">' + map.me + '</sup>');
+      html = html.replace(/\[co\]/g, '<sup class="inline-note">' + map.co + '</sup>');
+      textNodes[0].innerHTML = html;
+
+      // Append a small two-line legend.
+      var notes = document.createElement("div");
+      notes.className = "inline-note-list";
+      notes.innerHTML = '<div><sup>' + map.me + '</sup> Presented by me.</div>' +
+         '<div><sup>' + map.co + '</sup> Presented by co-authors.</div>';
+
+      textNodes[0].appendChild(notes);
+   })();
+</script>
+```
+
+```{=html}
+<!-- If Quarto auto-footnotes exist, relabel them to a/b for consistency. -->
+<style>
+   .footnotes ol { list-style-type: lower-alpha; }
+</style>
+<script type="text/javascript">
+   (function () {
+      // Read footnote text and map to a/b based on content.
+      var footnotes = document.querySelectorAll("section.footnotes ol li");
+      if (!footnotes.length) return;
+
+      var map = {};
+      footnotes.forEach(function (li, index) {
+         var text = (li.textContent || "").toLowerCase();
+         if (text.indexOf("presented by me") !== -1) {
+            map[li.id] = "a";
+         }
+         if (text.indexOf("presented by co-authors") !== -1) {
+            map[li.id] = "b";
+         }
+      });
+
+      // Update superscript markers in the body to a/b.
+      var refs = document.querySelectorAll("a.footnote-ref");
+      refs.forEach(function (ref) {
+         var href = ref.getAttribute("href") || "";
+         var id = href.replace("#", "");
+         var mark = map[id];
+         if (mark) {
+            ref.textContent = mark;
+         }
+      });
+   })();
+</script>
+```

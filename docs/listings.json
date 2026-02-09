@@ -6,9 +6,7 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/event-title/index.html",
-      "/posts/news-title/index.html",
-      "/posts/paper-title/index.html"
+      "/pages/posts/items/20251018_about-me/index.html"
     ]
   },
   {
@@ -17,6 +15,12 @@
       "/posts/event-title/index.html",
       "/posts/news-title/index.html",
       "/posts/paper-title/index.html"
+    ]
+  },
+  {
+    "listing": "/pages/posts/index.html",
+    "items": [
+      "/pages/posts/items/20251018_about-me/index.html"
     ]
   }
 ]

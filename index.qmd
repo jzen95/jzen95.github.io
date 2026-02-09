@@ -17,14 +17,13 @@ about:
       href: mailto:juebin.zeng@auckland.ac.nz    
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/juebin-zeng-b14896117/
       target: _blank
 
 listing:
   - id: recent-posts
-    contents: 
-      - posts
-      - posts/post-links.yml
+    contents:
+      - pages/posts/items/*/index.qmd
     exclude:
       title: ""
     type: grid
@@ -32,9 +31,10 @@ listing:
     page-size: 3
     fields: [image, date, title, subtitle]
     max-description-length: 75
-    sort: 
+    sort:
       - "date desc"
       - "title asc"
+
 ---
 
 :::{#hero-heading}
@@ -43,16 +43,41 @@ Welcome! I'm Juebin Zeng, a recent PhD graduate in Finance from the University o
 
 My research focuses on **corporate governance**, **executive turnover**, and **financial machine learning**. I am particularly interested in applying advanced machine learning techniques to understand corporate decision-making and predict executive turnover outcomes.
 
-For more details about my background and experience, please visit my [About](about.qmd) page.
+For more details about my background and experience, please visit my [About](pages/about/) page.
 
 :::
 
 
-<!-- Delete the following section and delete corresponding lines in the yaml part to remove the recent posts -->
+<div id="recent-posts-section">
+
 ## Recent Posts
-Check out the latest &nbsp;[Papers](posts.qmd#category=paper)&nbsp;, &nbsp;[News](posts.qmd#category=news)&nbsp;, &nbsp;[Events](posts.qmd#category=event)&nbsp;, and &nbsp;[More »](/posts.qmd)
+Check out the latest [Data Sharing](pages/posts/#category=Data Sharing), [Code Sharing](pages/posts/#category=Code Sharing), [Paper Sharing](pages/posts/#category=Paper Sharing), and [More »](pages/posts/)
 
 :::{#recent-posts}
 :::
 
-<p align="right">[All Posts »](/posts.qmd)</p>
+<p align="right">[All Posts »](pages/posts/)</p>
+
+</div>
+
+```{=html}
+<script type="text/javascript">
+  (function () {
+    var section = document.getElementById("recent-posts-section");
+    var listing = document.getElementById("listing-recent-posts");
+    if (!section || !listing) return;
+
+    var links = listing.querySelectorAll("a.quarto-grid-link, .quarto-listing-item a");
+    var hasRealItems = Array.prototype.some.call(links, function (link) {
+      var href = link.getAttribute("href") || "";
+      return !href.match(/^\.\/pages\/posts\/?$/);
+    });
+
+    if (!hasRealItems) {
+      section.style.display = "none";
+    }
+  })();
+</script>
+```
+
+

@@ -1,0 +1,34 @@
+---
+title: "About Me"
+description: "Brief introduction based on my academic and industry experience."
+author: "Juebin Zeng"
+date: "2025-10-18"
+categories: [Profile]
+image: "/files/images/snowman.jpg"
+---
+
+## A Quick Hello
+
+![](/files/images/snowman.jpg){.float-right width="250" style="margin:4px 0 12px 12px; border-radius:8px;"}
+
+I am Juebin (Jay) Zeng. I do finance research, teach a bit, and spend an unreasonable amount of time convincing machines to behave. Most days I work on corporate governance, executive turnover, and how machine learning can help make sense of messy financial data. Coffee helps; so does a good debugger.
+
+I am currently on the job hunt and happily between roles.
+
+My work sits at the intersection of executive turnover, corporate governance, and machine learning in finance. I enjoy building models that explain CEO turnover risk, studying how governance shapes firm performance, and exploring asset pricing questions when the data gets messy.
+
+I completed my PhD in Finance at the University of Auckland (2025), after a M.MS in Finance (First Class Honors) at the University of Waikato (2021). Along the way I also picked up a PgCert in Computing from ANU (2019) and a B.BA in Finance from Waikato (2018).
+
+On the research side, I have been an affiliated doctoral researcher at Vlerick Business School (2025) and a research assistant at the University of Auckland (2024-2025). On the teaching side, I have worked as a graduate teaching assistant and programming consultant (2022-2025), supporting analytics labs and capstone projects.
+
+Coding-wise, I am most at home in Python and R, and I also use SQL, Stata, and a bit of Java. For dashboards and reporting, I reach for Power BI and Tableau, and I still enjoy a good LaTeX draft when it is time to make things look serious.
+
+I also spent time in industry as a finance project analyst at Oxford Finance (2025), where I reviewed loan closures, recalculated settlement interest, and supported remediation reporting.
+
+If you are curious about what I write, please check out my [research work](/pages/research/) for publications, working papers, and projects in progress.
+
+## Say Hi
+
+Work email: juebin.zeng@auckland.ac.nz (may expire any day now, thanks to graduation)
+
+Personal email: zengjuebin95@outlook.com

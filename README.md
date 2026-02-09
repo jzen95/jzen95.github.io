@@ -9,9 +9,9 @@ Welcome! This is a simple and customizable template for building your own academ
 1. **Update** the `_quarto.yml` file to configure your site’s basic settings.  
 1. **Add or edit content** in the following files and folders:
    - `/posts/` – posts about publications, news, events  
-   - `teaching.qmd` – teaching information  
-   - `projects.yml` – research or other projects  
-   - `people.qmd` and `/people/` – team or collaborators  
+   - `/pages/teaching/` – teaching information  
+   - `/pages/projects/` – research or other projects  
+   - `/pages/people/` – team or collaborators  
    - `/files/` - profiles, images, pdfs, and includes 
 1. [**Render and preview**](https://quarto.org/docs/websites/) your site locally.  
 1. [**Publish**](https://quarto.org/docs/publishing/github-pages.html) your site using GitHub Pages (make sure [configuring](https://quarto.org/docs/publishing/images/gh-pages-docs-dir.png) your GitHub repository to publish from the `docs` directory, not the `root` folder).  

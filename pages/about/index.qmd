@@ -1,0 +1,54 @@
+---
+title: "About Me"
+description-meta: "About Juebin Zeng"
+title-block-banner: false
+---
+
+## A Quick Hello
+
+Hi, I am Juebin (Jay) Zeng. I do finance research, teach a bit, and spend an unreasonable amount of time getting machines to behave. Most days I think about corporate governance, executive turnover, and how machine learning can help make sense of messy financial data.
+
+I am currently on the job hunt and happily between roles.
+
+## What I Actually Do
+
+- Model CEO turnover risk with machine learning
+- Study corporate governance and firm performance
+- Tinker with asset pricing and firm value questions
+
+## Tiny Timeline (No Suits Required)
+
+- PhD in Finance, University of Auckland (2025)
+- M.MS in Finance (First Class Honors), University of Waikato (2021)
+- PgCert in Computing, Australian National University (2019)
+- B.BA in Finance, University of Waikato (2018)
+
+## Research Experience
+
+- Affiliated Doctoral Researcher, Vlerick Business School (Jan 2025 - Sep 2025)
+- Research Assistant, University of Auckland (Dec 2024 - Feb 2025)
+
+## Teaching Experience
+
+- Graduate Teaching Assistant / Programming Consultant, University of Auckland (2022 - 2025)
+	- Businfo 716 - Business Analytics for FinTech (lab teaching and material design)
+	- Businfo 711 & 718 - Capstone Project (programming consultant)
+	- Finance 251 - Financial Management (tutorial teaching and course development)
+	- Finance 351, Finance 261, ACCTG 102 (marking and invigilation)
+
+## Industry Experience
+
+- Finance Project Analyst (Oxford Finance, 2025)
+	- Reviewed loan closures, recalculated settlement interest, and supported remediation reporting.
+
+## Writing Corner
+
+- Board gender diversity and firm performance revisited (Applied Economics, 2025)
+- Predicting performance-induced CEO dismissals using machine learning (working paper)
+- Anti-pledging policy and firm financial constraints (working paper)
+
+## Say Hi
+
+Work email: juebin.zeng@auckland.ac.nz (may expire any day now, thanks to graduation)
+
+Personal email: zengjuebin95@outlook.com

@@ -2,50 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jzen.github.io/presentations.html</loc>
-    <lastmod>2025-12-14T18:26:15.760Z</lastmod>
+    <lastmod>2026-01-30T01:49:59.551Z</lastmod>
   </url>
   <url>
     <loc>https://jzen.github.io/people.html</loc>
-    <lastmod>2025-12-06T07:21:14.020Z</lastmod>
+    <lastmod>2026-01-30T01:49:59.544Z</lastmod>
   </url>
   <url>
     <loc>https://jzen.github.io/publications.html</loc>
-    <lastmod>2025-12-14T14:24:21.239Z</lastmod>
+    <lastmod>2026-02-08T20:29:27.045Z</lastmod>
   </url>
   <url>
     <loc>https://jzen.github.io/projects.html</loc>
-    <lastmod>2025-12-14T18:23:16.497Z</lastmod>
+    <lastmod>2026-01-30T01:49:59.551Z</lastmod>
   </url>
   <url>
     <loc>https://jzen.github.io/posts/news-title/index.html</loc>
-    <lastmod>2025-12-06T07:21:14.021Z</lastmod>
+    <lastmod>2026-01-30T01:49:59.546Z</lastmod>
   </url>
   <url>
     <loc>https://jzen.github.io/posts/paper-title/index.html</loc>
-    <lastmod>2025-12-06T07:21:14.024Z</lastmod>
+    <lastmod>2026-02-08T20:29:38.894Z</lastmod>
   </url>
   <url>
     <loc>https://jzen.github.io/teaching.html</loc>
-    <lastmod>2025-12-06T08:53:28.072Z</lastmod>
+    <lastmod>2026-01-30T01:49:59.551Z</lastmod>
   </url>
   <url>
     <loc>https://jzen.github.io/contact.html</loc>
-    <lastmod>2025-12-14T18:28:28.592Z</lastmod>
+    <lastmod>2026-01-30T01:49:59.474Z</lastmod>
   </url>
   <url>
     <loc>https://jzen.github.io/posts/event-title/index.html</loc>
-    <lastmod>2025-12-06T07:21:14.021Z</lastmod>
+    <lastmod>2026-02-08T20:29:31.965Z</lastmod>
   </url>
   <url>
     <loc>https://jzen.github.io/index.html</loc>
-    <lastmod>2025-12-14T18:38:18.256Z</lastmod>
+    <lastmod>2026-02-09T10:26:33.384Z</lastmod>
   </url>
   <url>
     <loc>https://jzen.github.io/about.html</loc>
-    <lastmod>2025-12-14T18:43:03.428Z</lastmod>
+    <lastmod>2026-02-08T21:52:25.991Z</lastmod>
   </url>
   <url>
     <loc>https://jzen.github.io/posts.html</loc>
-    <lastmod>2025-12-06T07:21:14.021Z</lastmod>
+    <lastmod>2026-01-30T01:49:59.545Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/pages/publications/index.html</loc>
+    <lastmod>2026-02-08T22:07:41.553Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/pages/presentations/index.html</loc>
+    <lastmod>2026-02-09T07:12:42.812Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/pages/people/index.html</loc>
+    <lastmod>2026-02-09T00:58:05.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/pages/about/index.html</loc>
+    <lastmod>2026-02-09T08:50:36.740Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/pages/contact/index.html</loc>
+    <lastmod>2026-02-08T22:07:41.553Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/pages/posts/index.html</loc>
+    <lastmod>2026-02-09T10:20:30.125Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/pages/projects/index.html</loc>
+    <lastmod>2026-02-09T02:51:12.998Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/pages/teaching/index.html</loc>
+    <lastmod>2026-02-08T22:07:41.553Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/pages/index.html</loc>
+    <lastmod>2026-02-09T03:39:47.787Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/posts/about-me/index.html</loc>
+    <lastmod>2026-02-08T23:30:55.332Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/pages/posts/items/about-me/index.html</loc>
+    <lastmod>2026-02-09T02:51:19.122Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/pages/posts/items/20251018_about-me/index.html</loc>
+    <lastmod>2026-02-09T09:46:04.904Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/pages/selected-papers/index.html</loc>
+    <lastmod>2026-02-09T04:06:29.256Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jzen.github.io/pages/research/index.html</loc>
+    <lastmod>2026-02-09T10:31:13.649Z</lastmod>
   </url>
 </urlset>

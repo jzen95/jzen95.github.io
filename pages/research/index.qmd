@@ -1,0 +1,43 @@
+---
+title: "Research"
+subtitle: "Publications, working papers, and work in progress"
+page-layout: full
+title-block-banner: false
+---
+
+## Publications
+
+### Journal Articles
+
+Zeng, J., Huang, P., Lu, Y., Wu, J. G., & Yin, L. (2025). Board gender diversity and firm performance revisited: International evidence. *Applied Economics*, 1-24. https://doi.org/10.1080/00036846.2024.2439633
+
+### Dissertation
+
+Zeng, J. (2025). *Three essays on corporate governance and CEO dismissal* [Doctoral dissertation, University of Auckland]. ResearchSpace@Auckland.
+
+## Working Papers
+
+1. Berkman, Henk and Lu, Helen and Zeng, Juebin, Predicting Performance-Induced CEO Dismissals Using Machine Learning (June 10, 2023). Available at SSRN: https://ssrn.com/abstract=5951814 or http://dx.doi.org/10.2139/ssrn.5951814
+
+
+## Work in Progress
+
+- **Nonlinear pricing of firm characteristics** (solo)
+
+## Current Active Projects
+
+Here are a few projects I am actively working on (or polishing for the next stage):
+
+1. **Predicting performance-induced CEO dismissal using machine learning**
+   - Building AI models to forecast performance-driven CEO turnover and examining market reactions to leadership risk.
+   - **Co-authors:** Prof. Henk Berkman (University of Auckland), Prof. Helen Lu (Vlerick Business School)
+
+2. **Anti-pledging policy and firm financial constraints**
+   - Studying how share-pledging restrictions affect cash compensation, firm risk-taking, and valuation for financially constrained firms.
+   - **Co-authors:** Prof. Henk Berkman (University of Auckland), Prof. Helen Lu (Vlerick Business School)
+
+3. **Nonlinear pricing of firm characteristics**
+   - Exploring nonlinear relationships between firm characteristics and expected returns in asset pricing.
+   - **Co-authors:** Solo
+
+For inquiries about potential collaborations, please feel free to [contact me](../contact/).

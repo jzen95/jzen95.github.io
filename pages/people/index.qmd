@@ -1,0 +1,16 @@
+---
+title: "People"
+subtitle: "Who we are"
+page-layout: full
+title-block-banner: false
+page-navigation: false
+toc: false
+---
+
+## Team
+
+Team profiles are being updated. Please check back soon.
+
+## Alumni
+
+Alumni details will be added after the team page is finalized.

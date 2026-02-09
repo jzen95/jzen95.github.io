@@ -1,0 +1,15 @@
+---
+title: "Pages"
+page-navigation: false
+toc: false
+---
+
+This is the top-level index for site pages.
+
+- [About](about/)
+- [Research](research/)
+- [Presentations](presentations/)
+- [People](people/)
+- [Teaching](teaching/)
+- [Posts](posts/)
+- [Contact](contact/)
