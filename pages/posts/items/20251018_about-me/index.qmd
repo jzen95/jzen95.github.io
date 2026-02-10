@@ -15,13 +15,15 @@ I am Juebin (Jay) Zeng. I do finance research, teach a bit, and spend an unreaso
 
 I am currently on the job hunt and happily between roles.
 
+I built this site as a simple, durable place to collect my research, code, teaching notes, and other useful materials. Think of it as a public lab notebook, part portfolio, part archive, and part “future me will thank present me” documentation.
+
 My work sits at the intersection of executive turnover, corporate governance, and machine learning in finance. I enjoy building models that explain CEO turnover risk, studying how governance shapes firm performance, and exploring asset pricing questions when the data gets messy.
 
 I completed my PhD in Finance at the University of Auckland (2025), after a M.MS in Finance (First Class Honors) at the University of Waikato (2021). Along the way I also picked up a PgCert in Computing from ANU (2019) and a B.BA in Finance from Waikato (2018).
 
 On the research side, I have been an affiliated doctoral researcher at Vlerick Business School (2025) and a research assistant at the University of Auckland (2024-2025). On the teaching side, I have worked as a graduate teaching assistant and programming consultant (2022-2025), supporting analytics labs and capstone projects.
 
-Coding-wise, I am most at home in Python and R, and I also use SQL, Stata, and a bit of Java. For dashboards and reporting, I reach for Power BI and Tableau, and I still enjoy a good LaTeX draft when it is time to make things look serious.
+Coding-wise, I am most at home in Python and Stata, and I also use SQL, R, and a bit of Java. For dashboards and reporting, I reach for Power BI and Tableau, and I still enjoy a good LaTeX draft when it is time to make things look serious.
 
 I also spent time in industry as a finance project analyst at Oxford Finance (2025), where I reviewed loan closures, recalculated settlement interest, and supported remediation reporting.
 

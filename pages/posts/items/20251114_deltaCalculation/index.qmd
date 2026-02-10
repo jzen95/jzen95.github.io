@@ -1,0 +1,56 @@
+---
+title: "Measures of Managerial Incentives"
+description: "Replication-ready SAS program for delta, vega, and firm-specific wealth."
+author: "Juebin Zeng"
+date: "2025-11-20"
+categories: [Code Sharing]
+image: "CEOdeltavega.jpg"
+---
+
+## Background and attribution
+
+![](CEOdeltavega.jpg){.img-fluid style="max-width:600px; margin: 0 auto 18px; display:block;"}
+
+This post shares a SAS program for computing executive compensation sensitivities to stock price and volatility using ExecuComp, CRSP, and Compustat. The original implementation is by [Lalitha Naveen](https://sites.temple.edu/lnaveen/) (check out [here](https://sites.temple.edu/lnaveen/files/2024/09/deltavega_2013.txt)). 
+
+Thanks to [Kai Chen](https://www.kaichen.work/?p=211), who later modified that code, so it could run end-to-end on WRDS. Because WRDS datasets continue to update, Kai's self-contained program no longer runs out of the box. The code below is my updated version built on Kai Chen's revision, with fixes to keep it executable on current WRDS data.
+
+If you use this code, please cite the original sources and the methods papers listed [below](#references).
+
+Lalitha Naveen also iregularly updates their incentive dataset, and the latest version with a sample period up to 2023 can be found [here](https://sites.temple.edu/lnaveen/data/). If your research is not time-sensitive, I recommend using their dataset directly.
+
+## What the code produces
+
+The program outputs, at the executive-year level (CEO level can be identified by filtering for `title = 'CEO'`):
+
+- Delta: sensitivity of executive wealth to a 1% change in stock price, $\partial W/\partial P$.
+- Vega: sensitivity of executive wealth to a 0.01 change in stock return volatility, $\partial W/\partial \sigma$.
+- Firm-specific wealth: value of stock and option holdings (in $000s).
+- Separate components for option delta and stock delta.
+
+These measures are widely used in the managerial incentives and risk-taking literature.
+
+## What I have adapted
+- WRDS FRB Interest Rate Series has updated its format and archived the old dataset (sample period up to 2020). The variables "TCMNOM_\*" in the new dataset are renamed to "dgs\*", i.e., dgs1, dsg2, dgs3 and so on.
+- Some coding issues in Kai's self-contained program are corrected to be consistent with the original implementation by Lalitha Naveen.
+- I changed crsp.ccmxpf_lnkhist and crsp.msf to quarterly updates datasets: crspq.ccmxpf_lnkhist and crspq.msf. Reason: UOA did not subscribe to the annual updates of CRSP, which is werid. But the quarterly updates are available, and they are more up-to-date.
+
+## How to run
+
+1. Update the WRDS connection or local `libname` statements to match your environment.
+2. Set `start_year` and `end_year` near the top of the program.
+3. Run the script in SAS (I recommend SAS Studio on WRDS). The final output dataset is `delta_vega.sas7bdat`, which can be converted to `.dta` in Stata.
+
+## References
+
+- Coles, J. L., Daniel, N. D., and Naveen, L. (2006). Managerial Incentives and Risk-Taking. Journal of Financial Economics 79, 431-468.
+- Coles, J. L., Daniel, N. D., and Naveen, L. (2013). Calculation of Compensation Incentives and Firm-Related Wealth Using Execucomp: Data, Program, and Explanation. SSRN: https://ssrn.com/abstract=2296381.
+- Core, J., and Guay, W. (2002). Estimating the value of employee stock option portfolios and their sensitivities to price and volatility. Journal of Accounting Research 40, 613-630.
+
+## SAS code
+
+::: {.code-scroll}
+```sas
+{{< include delta.sas >}}
+```
+:::

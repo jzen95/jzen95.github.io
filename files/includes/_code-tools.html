@@ -1,0 +1,61 @@
+<script>
+  const runCodeTools = () => {
+    document.querySelectorAll(".code-scroll").forEach((block) => {
+      const pre = block.querySelector("pre");
+      const card = block.querySelector(".sourceCode") || block;
+      if (!pre) {
+        return;
+      }
+
+      let header = card.querySelector(".code-card-header");
+      if (!header) {
+        header = document.createElement("div");
+        header.className = "code-card-header";
+        const badge = document.createElement("span");
+        badge.className = "code-lang-badge";
+        header.appendChild(badge);
+        card.insertBefore(header, pre);
+      }
+
+      const langClass = [...pre.classList].find((name) => !["sourceCode", "code-with-copy", "numberSource", "number-lines"].includes(name));
+      if (langClass) {
+        pre.dataset.lang = langClass;
+        const badge = header.querySelector(".code-lang-badge");
+        if (badge) {
+          badge.textContent = langClass;
+        }
+      }
+
+      if (block.querySelector(".code-copy-button")) {
+        return;
+      }
+
+      const button = document.createElement("button");
+      button.className = "code-copy-button";
+      button.type = "button";
+      button.textContent = "Copy code";
+      button.addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText(pre.innerText);
+          button.textContent = "Copied";
+          setTimeout(() => {
+            button.textContent = "Copy code";
+          }, 1200);
+        } catch (error) {
+          button.textContent = "Failed";
+          setTimeout(() => {
+            button.textContent = "Copy code";
+          }, 1200);
+        }
+      });
+
+      header.appendChild(button);
+    });
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", runCodeTools);
+  } else {
+    runCodeTools();
+  }
+</script>

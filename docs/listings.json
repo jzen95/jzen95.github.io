@@ -6,6 +6,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/pages/posts/items/20251114_deltaCalculation/index.html",
       "/pages/posts/items/20251018_about-me/index.html"
     ]
   },
@@ -20,6 +21,7 @@
   {
     "listing": "/pages/posts/index.html",
     "items": [
+      "/pages/posts/items/20251114_deltaCalculation/index.html",
       "/pages/posts/items/20251018_about-me/index.html"
     ]
   }

@@ -17,7 +17,7 @@ Zeng, J. (2025). *Three essays on corporate governance and CEO dismissal* [Docto
 
 ## Working Papers
 
-1. Berkman, Henk and Lu, Helen and Zeng, Juebin, Predicting Performance-Induced CEO Dismissals Using Machine Learning (June 10, 2023). Available at SSRN: https://ssrn.com/abstract=5951814 or http://dx.doi.org/10.2139/ssrn.5951814
+1. Berkman, H and Lu, H and Zeng, J, Predicting Performance-Induced CEO Dismissals Using Machine Learning (June 10, 2023). *Available at SSRN: https://ssrn.com/abstract=5951814 or http://dx.doi.org/10.2139/ssrn.5951814*
 
 
 ## Work in Progress

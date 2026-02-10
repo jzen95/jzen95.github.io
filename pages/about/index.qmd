@@ -8,7 +8,8 @@ title-block-banner: false
 
 Hi, I am Juebin (Jay) Zeng. I do finance research, teach a bit, and spend an unreasonable amount of time getting machines to behave. Most days I think about corporate governance, executive turnover, and how machine learning can help make sense of messy financial data.
 
-I am currently on the job hunt and happily between roles.
+I am currently on the job hunt and happily between roles, and I am open to opportunities in both industry and academia.
+
 
 ## What I Actually Do
 
@@ -40,6 +41,14 @@ I am currently on the job hunt and happily between roles.
 
 - Finance Project Analyst (Oxford Finance, 2025)
 	- Reviewed loan closures, recalculated settlement interest, and supported remediation reporting.
+
+## Coding Toolbox
+
+- Most in Python and Stata
+- Also use SQL, R, and a bit of Java
+- Dashboards and reporting: Power BI and Tableau
+- Still enjoy a good LaTeX draft for automated reporting
+
 
 ## Writing Corner
 
