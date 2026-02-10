@@ -1,5 +1,5 @@
 /* Theme fonts */
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Manrope:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
 
 :root {
 	--bg-1: #f7f2ea;
@@ -35,6 +35,21 @@ main.content p,
 main.content li {
 	text-align: justify;
 	text-justify: inter-word;
+}
+
+.quarto-about-trestles .quarto-title-block {
+	text-align: center;
+}
+
+.quarto-about-trestles .about-entity {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.quarto-about-trestles .quarto-title-block .title,
+.quarto-about-trestles .quarto-title-block .subtitle {
+	text-align: center;
 }
 
 code, pre, pre code {
@@ -87,7 +102,7 @@ code, pre, pre code {
 
 h1, h2, h3, h4, h5, h6,
 .navbar, .navbar-brand, .nav-link {
-	font-family: "Fraunces", "Times New Roman", serif;
+	font-family: "Manrope", "Segoe UI", sans-serif;
 }
 
 a {

@@ -75,10 +75,9 @@ format:
     css: styles.css
     toc: true
     footnotes-hover: true
-    code-copy: false
+    code-copy: true
     code-link: true
     code-overflow: wrap
-    code-line-numbers: true
     fig-align: center
     link-external-icon: false
     link-external-newwindow: true

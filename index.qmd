@@ -1,5 +1,6 @@
 ---
 title: "Juebin Zeng"
+subtitle: "PhD in Finance"
 description-meta: "Juebin's Personal Page"
 image: "files/images/professional_photo.jpg"
 page-navigation: false
@@ -10,7 +11,7 @@ page-layout: full
 about:
   id: hero-heading
   template: trestles
-  image-width: 70%
+  image-width: 60%
   links:
     - icon: envelope
       text: E-mail
