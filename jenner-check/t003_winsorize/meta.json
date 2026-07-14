@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_winsorize",
+  "source_file": "pages/posts/items/20251114_deltaCalculation/delta.sas",
+  "source_blob_sha": "f05d7004115d37673e61dd484f8ead557d2cad4a",
+  "source_commit": "96b90d18d88fefe0d7a05b1ec0782a1424fd82f0",
+  "notes": "ExecuComp-style winsorization (excomp5->out1->excomp6a/6b block) from delta.sas; proc univariate pctlpts=5 95 pctlpre= percentile capture by year plus merge+clamp logic; merged ExecuComp/CRSP panel replaced by a 30-row inline excomp5 sample with outliers so clamping is visible; logic unchanged."
+}

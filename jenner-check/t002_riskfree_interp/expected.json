@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-14T09:24:12.787752+00:00",
+  "_captured_run_id": "r_806e2de6fa7249e1b9722dea68acf97f",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote rates_annual (6 rows, 7 columns).",
+    "NOTE: Wrote riskfree_rate (6 rows, 11 columns).",
+    "NOTE: PROC PRINT completed: 6 observations printed, 11 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

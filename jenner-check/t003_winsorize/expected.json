@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-14T09:24:12.807682+00:00",
+  "_captured_run_id": "r_700c3ac7644446d685677cc8334d55be",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Output dataset out1 has 2 observations and 5 variables.",
+    "NOTE: Wrote excomp6b (30 rows, 4 columns).",
+    "NOTE: PROC PRINT completed: 30 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

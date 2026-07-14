@@ -1,0 +1,42 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T020019Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA excomp10
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 10 rows from DATALINES.
+NOTE: Wrote excomp10 (10 rows, 16 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA excomp11
+
+
+NOTE: Read 10 rows from excomp10.
+NOTE: Wrote excomp11 (10 rows, 23 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table excomp12 created.
+NOTE: PROC SQL statement used.
+NOTE: DATA delta_vega
+
+
+NOTE: Read 10 rows from excomp12.
+NOTE: Wrote delta_vega (10 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=delta_vega
+
+NOTE: Read 10 rows from delta_vega.
+NOTE: Wrote delta_vega (10 rows, 7 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC PRINT data=delta_vega
+
+NOTE: PROC PRINT completed: 10 observations printed, 7 variables
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
