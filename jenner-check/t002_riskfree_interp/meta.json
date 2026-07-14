@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_riskfree_interp",
+  "source_file": "pages/posts/items/20251114_deltaCalculation/delta.sas",
+  "source_blob_sha": "f05d7004115d37673e61dd484f8ead557d2cad4a",
+  "source_commit": "96b90d18d88fefe0d7a05b1ec0782a1424fd82f0",
+  "notes": "Treasury risk-free-rate interpolation (riskfree_rate data step) from delta.sas; FRB frb.rates_daily WRDS read replaced by a 6-row inline rates_annual sample; round() interpolation of 4/6/8/9-year maturities from 1/2/3/5/7/10yr unchanged."
+}

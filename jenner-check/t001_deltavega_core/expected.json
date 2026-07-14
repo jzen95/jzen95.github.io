@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-14T09:22:02.013886+00:00",
+  "_captured_run_id": "r_cc46d7e9a3024fdc868aa17b0997e1ec",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote excomp11 (10 rows, 23 columns).",
+    "NOTE: Table excomp12 created.",
+    "NOTE: Wrote delta_vega (10 rows, 7 columns).",
+    "NOTE: PROC PRINT completed: 10 observations printed, 7 variables"
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

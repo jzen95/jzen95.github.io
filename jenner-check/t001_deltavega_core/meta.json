@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_deltavega_core",
+  "source_file": "pages/posts/items/20251114_deltaCalculation/delta.sas",
+  "source_blob_sha": "f05d7004115d37673e61dd484f8ead557d2cad4a",
+  "source_commit": "96b90d18d88fefe0d7a05b1ec0782a1424fd82f0",
+  "notes": "Core-Guay/Coles-Daniel-Naveen option delta+vega core (excomp11+excomp12+excomp14 delta/vega assembly) from delta.sas; WRDS ExecuComp/CRSP/Compustat input replaced by a 10-row inline excomp10 sample; formulas (probnorm, PDF normal, Zc/Sc/Vc/Rc, sum()-delta) unchanged."
+}
